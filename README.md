@@ -11,7 +11,7 @@ Make sure to run `npm i` to install any dependencies.
 ## Usage
 
 To use the program, run `npm start` in your command line and follow the prompts.
-You can also watch a video tutorial [here]().
+You can also watch a video tutorial [here](https://drive.google.com/file/d/11NJk8sQ1k5BxvH_mxAgpctLgcMjlMGf-/view?usp=sharing).
 
 ## Credits
 Thanks to John Hysong and edX's Xpert Learning Assistant for helping me figure out how to implement the tow and wheelie actions inside of performActions!
