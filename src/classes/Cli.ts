@@ -391,7 +391,7 @@ class Cli {
         else if (answers.action === 'Tow') {
           for (let i = 0; i < this.vehicles.length; i++) {
             if (this.vehicles[i].vin === this.selectedVehicleVin && this.vehicles[i] instanceof Truck) {
-              let truck = this.vehicles[i];
+              let truck = this.vehicles[i] as Truck;
               this.findVehicleToTow(truck);
               return;
             }
@@ -401,7 +401,8 @@ class Cli {
         else if (answers.action === 'Wheelie') {
           for (let i = 0; i < this.vehicles.length; i++) {
             if (this.vehicles[i].vin === this.selectedVehicleVin && this.vehicles[i] instanceof Motorbike) {
-              this.vehicles[i].wheelie();
+              let motorbike = this.vehicles[i] as Motorbike;
+              motorbike.wheelie();
             }
           }
         }
